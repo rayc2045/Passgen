@@ -1,11 +1,11 @@
 # Passgen - Node.js Password Generator
 
-### Clone this repo
+## Clone this repo
     git clone https://github.com/rayc2045/Passgen.git
     cd Passgen
     npm i
 
-### Usage
+## Usage
 Run file
 
     node index (options)
@@ -19,7 +19,7 @@ Remove symlink
 
     npm unlink
 
-### Options
+## Options
 | Short | Long              | Description                     |
 | ----- | ----------------- | ------------------------------- |
 | -l    | --length <number> | length of password (default: 8) |
