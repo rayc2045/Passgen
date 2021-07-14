@@ -4,7 +4,7 @@ const symbols = '`-=[]\;\',./';
 const optionSymbols = 'å∫ç∂´ƒ©˙ˆ∆˚¬µ˜øπœ®ß†¨√∑≈¥Ω`¡™£¢∞§¶•ªº–≠“‘«…æ≤≥÷';
 const shiftSymbols = '~!@#$%^&*()_+{}|:"<>?';
 
-function createPassword(length = 8, hasNumbers = true, hasSymbols = true) {
+function createPassword(length = 10, hasNumbers = true, hasSymbols = true) {
   let chars = alpha;
   if (hasNumbers) chars += numbers;
   if (hasSymbols) chars = chars + symbols + optionSymbols + shiftSymbols;

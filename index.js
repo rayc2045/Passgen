@@ -11,7 +11,7 @@ const fileToSave = 'passwords.txt';
 program
   .version('1.0.0')
   .description('Node.js Password Generator')
-  .option('-l, --length <numbers>', 'length of password', '8') // default length: 8
+  .option('-l, --length <numbers>', 'length of password', '10') // default length: 10
   .option('-nn, --no-numbers', 'remove numbers')
   .option('-ns, --no-symbols', 'remove symbols')
   .option('-s, --save', `save password to ${fileToSave}`)
