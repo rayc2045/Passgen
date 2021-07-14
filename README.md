@@ -1,5 +1,7 @@
 # Passgen - Node.js Password Generator
 
+[![Photo](https://raw.githubusercontent.com/rayc2045/Passgen/main/demo.png)](https://github.com/rayc2045/Passgen#passgen---nodejs-password-generator)
+
 ## Clone this repo
     git clone https://github.com/rayc2045/Passgen.git
     cd Passgen
