@@ -18,15 +18,10 @@ program
 
 const { length, numbers, symbols, save } = program.opts();
 
-// Generate password
 const password = createPassword(length, numbers, symbols);
-
-// Copies to clipboard
 clipboardy.writeSync(password);
 
-// Save password to file
-if (save) savePassword(password, fileToSave);
-
-// Output generated password
 log(chalk.blue('Generated Password: ') + chalk.bold(password));
 log(chalk.yellow('Password copies to clipboard'));
+
+if (save) savePassword(password, fileToSave);
