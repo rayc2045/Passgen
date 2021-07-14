@@ -15,7 +15,7 @@ Run file
 Create a symlink to run "Passgen" from anywhere
 
     npm link
-    Passgen (option)
+    Passgen (options)
 
 Remove symlink
 
