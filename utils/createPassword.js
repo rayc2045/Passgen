@@ -1,11 +1,13 @@
 const alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '0123456789';
-const symbols = '!@#$%^&*_-+=';
+const symbols = '`-=[]\;\',./';
+const optionSymbols = 'å∫ç∂´ƒ©˙ˆ∆˚¬µ˜øπœ®ß†¨√∑≈¥Ω`¡™£¢∞§¶•ªº–≠“‘«…æ≤≥÷';
+const shiftSymbols = '~!@#$%^&*()_+{}|:"<>?';
 
 function createPassword(length = 8, hasNumbers = true, hasSymbols = true) {
   let chars = alpha;
   if (hasNumbers) chars += numbers;
-  if (hasSymbols) chars += symbols;
+  if (hasSymbols) chars = chars + symbols + optionSymbols + shiftSymbols;
   return generatePassword(length, chars);
 }
 
