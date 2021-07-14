@@ -22,11 +22,11 @@ Remove symlink
     npm unlink
 
 ## Options
-| Short | Long              | Description                     |
-| ----- | ----------------- | ------------------------------- |
-| -l    | --length <number> | length of password (default: 8) |
-| -nn   | --no-numbers      | no numbers                      |
-| -ns   | --no-symbols      | no symbols                      |
-| -s    | --save            | save password to passwords.txt  |
-| -h    | --help            | display help for command        |
-| -V    | --version         | Show the version                |
+| Short | Long              | Description                      |
+| ----- | ----------------- | -------------------------------- |
+| -l    | --length <number> | length of password (default: 10) |
+| -nn   | --no-numbers      | no numbers                       |
+| -ns   | --no-symbols      | no symbols                       |
+| -s    | --save            | save password to passwords.txt   |
+| -h    | --help            | display help for command         |
+| -V    | --version         | Show the version                 |
