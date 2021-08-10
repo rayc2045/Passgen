@@ -19,7 +19,7 @@ Create a symlink to run "Passgen" from anywhere
 
 Remove symlink
 
-    npm unlink
+    npm unlink Passgen
 
 ## Options
 | Short | Long              | Description                      |
